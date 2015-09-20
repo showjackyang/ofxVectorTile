@@ -7,7 +7,7 @@
 #pragma once
 
 #include <vector>
-#include <tr1/memory>
+#include <memory>
 
 #include "glmRectangle.h"
 
@@ -57,4 +57,4 @@ protected:
     static void handleFontstashError(void* uptr, int error, int val);
 };
 
-typedef std::tr1::shared_ptr<glmFont> glmFontRef;
+typedef std::shared_ptr<glmFont> glmFontRef;

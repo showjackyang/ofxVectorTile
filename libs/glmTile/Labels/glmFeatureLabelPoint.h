@@ -48,4 +48,4 @@ protected:
     float   m_margin;
 };
 
-typedef std::tr1::shared_ptr<glmFeatureLabelPoint> glmFeatureLabelPointRef;
+typedef std::shared_ptr<glmFeatureLabelPoint> glmFeatureLabelPointRef;

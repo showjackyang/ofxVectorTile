@@ -9,8 +9,7 @@
 
 //  TODO: use default one
 //
-//#include <memory>
-#include <tr1/memory>
+#include <memory>
 
 #include "glmString.h"
 #include "glmPolyline.h"
@@ -29,4 +28,4 @@ protected:
     
 };
 
-typedef std::tr1::shared_ptr<glmFeature> glmFeatureRef;
+typedef std::shared_ptr<glmFeature> glmFeatureRef;

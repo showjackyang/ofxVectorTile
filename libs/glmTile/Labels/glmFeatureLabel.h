@@ -48,4 +48,4 @@ protected:
     fsuint      m_fsid;
 };
 
-typedef std::tr1::shared_ptr<glmFeatureLabel> glmFeatureLabelRef;
+typedef std::shared_ptr<glmFeatureLabel> glmFeatureLabelRef;

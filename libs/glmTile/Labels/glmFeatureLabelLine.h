@@ -40,4 +40,4 @@ protected:
     std::vector<float> m_lettersWidth;
 };
 
-typedef std::tr1::shared_ptr<glmFeatureLabelLine> glmFeatureLabelLineRef;
+typedef std::shared_ptr<glmFeatureLabelLine> glmFeatureLabelLineRef;
